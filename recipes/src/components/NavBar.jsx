@@ -74,7 +74,7 @@ export const NavBar = (props) => {
   const link = "/about";
   console.log(props);
   return (
-    <div className="grid grid-rows-6 justify-items-end p-2 text-gray-500">
+    <div className="grid grid-rows-2 fixed w-3/12 ml-8 justify-items-end items-end p-2 text-gray-500">
       <div className="text-gray-800 uppercase text-lg m-6">RECIPE APP</div>
       <div className="rowspan-5">
         {content.map((item) => {
